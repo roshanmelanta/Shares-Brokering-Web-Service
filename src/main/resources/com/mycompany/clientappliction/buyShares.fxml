@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="284.0" prefWidth="474.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.clientappliction.BuySharesController">
+   <children>
+      <Text layoutX="61.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter quantity you want to buy" />
+      <Text layoutX="61.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shares available: " />
+      <Label fx:id="availableShares" layoutX="178.0" layoutY="65.0" text="Label" />
+      <TextField fx:id="sharesQuantity" layoutX="61.0" layoutY="151.0" prefHeight="31.0" prefWidth="204.0" />
+      <Button fx:id="confirmButton" layoutX="286.0" layoutY="151.0" mnemonicParsing="false" onAction="#onClickConfirm" text="Confirm" />
+   </children>
+</AnchorPane>

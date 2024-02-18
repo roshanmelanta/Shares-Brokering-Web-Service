@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.clientappliction.SecondaryController">
+   <children>
+      <Label fx:id="lbName" layoutX="318.0" layoutY="85.0" prefHeight="21.0" prefWidth="123.0" text="Label" />
+      <Text layoutX="114.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Company Name" />
+      <Text layoutX="114.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Symbol" />
+      <Label fx:id="lbSymbol" layoutX="318.0" layoutY="116.0" prefHeight="21.0" prefWidth="123.0" text="Label" />
+      <Text layoutX="114.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+      <Label fx:id="lbPrice" layoutX="318.0" layoutY="145.0" prefHeight="21.0" prefWidth="123.0" text="Label" />
+      <Text layoutX="113.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shares Available" />
+      <Label fx:id="lbSharesAvailable" layoutX="318.0" layoutY="173.0" prefHeight="21.0" prefWidth="123.0" text="Label" />
+      <Button fx:id="buyShares" layoutX="105.0" layoutY="263.0" mnemonicParsing="false" onAction="#onClickBuyShares" prefHeight="31.0" prefWidth="117.0" text="Buy" />
+      <Button fx:id="sellShares" layoutX="242.0" layoutY="263.0" mnemonicParsing="false" onAction="#onClickSellShares" prefHeight="31.0" prefWidth="117.0" text="Sell" />
+   </children>
+</AnchorPane>
