@@ -1,0 +1,1 @@
+A Shares Brokering Web Service written in Java. The Web Service consumes other Web Services related to Currency Conversion and Stock Values. These Web Services retrieve the latest data from external APIs.
